@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:wght@700&family=ZCOOL+KuaiLe&display=swap');
+
+:root {
+    --primary-color: #92847c;
+    --secondary-color:#b0a291;
+    --dark-color: #425746;
+    --light-color: #f0edeb;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: var(--light-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+ 
+h1,  
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Navbar */
+.navbar {
+    height: 60px;
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar .ul {
+    display: flex;
+}
+
+.navbar .a {
+    color: var(--dark-color);
+    padding: 15px;
+    margin: 0 50px;
+}
+
+.navbar h1 {
+    font-family: 'Alice', serif;
+    font-weight: 800;
+    color: var(--dark-color);
+}
+
+.navbar a:hover {
+    border-bottom: 2px var(--dark-color) solid;
+}
+
+
+/* Song receipt showcase */
+.showcase {
+    height: 400px;
+    background: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Song receipt actions bar */
+.actions-bar {
+    padding-top: 100px;
+}
+

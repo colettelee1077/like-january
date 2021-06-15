@@ -8,6 +8,8 @@
     --secondary-color:#b0a291;
     --dark-color: #425746;
     --light-color: #f0edeb;
+    --gray-green-color: #889287;
+    --light-green-color: #bec4b6;
 }
 
 * {
@@ -87,6 +89,17 @@ img {
     text-align: center;
 }
 
+/* Song receipt description */
+.song-receipt-overview {
+    padding-top: 300px;
+    color: var(--primary-color);
+}
+
+.song-receipt-overview p {
+    margin: 20px 20px;
+    text-align: center;
+}
+
 /* Song receipt showcase */
 .showcase {
     height: 400px;
@@ -103,12 +116,8 @@ img {
     left: 0;
 }
 
-/* Song receipt actions bar */
-.actions-bar {
-    padding-top: 400px;
-}
-
-.actions-bar i {
-    color: var(--primary-color);
+/* Actions bar */
+.actions-bar h3{
+    color: var(--gray-green-color);
 }
 

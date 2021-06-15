@@ -3,6 +3,8 @@
     --secondary-color:#b0a291;
     --dark-color: #425746;
     --light-color: #f0edeb;
+    --gray-green-color: #889287;
+    --light-green-color: #bec4b6;
 }
 
 .container {
@@ -32,18 +34,22 @@
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
-    color: var(--primary-color);
+    color: var(--light-green-color);
     border: none;
     border-radius: 5px;
 }
 
 .btn-outline {
     background-color: transparent;
-    border: 1px var(--primary-color) solid;
+    border: 1px var(--gray-green-color) solid;
 }
 
 .fab {
     color: var(--primary-color);
+}
+
+.fas {
+    color: var(--gray-green-color);
 }
 
 /* Text sizes */

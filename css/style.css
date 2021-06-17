@@ -119,5 +119,6 @@ img {
 /* Actions bar */
 .actions-bar h3{
     color: var(--gray-green-color);
+    margin: 0 0;
 }
 
